@@ -1,16 +1,19 @@
-
-
+import React from 'react'
+import {cars} from '../assets/carsAPI'
+import '../styles/cars.css'
 function Cars(props) {
-    const cars = props.cars
-    console.log(cars)
-  return (
-    <section>
-        <img src={cars[0].imgUrl} alt={cars[0].title} />
-        <h2>{cars[0].title}</h2>
-        <p>{cars[0].description}</p>
-    </section>
-  )
+
+return (
+  <section>
+  {cars.map((car) => (
+    <div id={car.theme}>
+      <img src={car.imgUrl} alt={car.title} />
+      <h2>{car.title}</h2>
+      <p>{car.description}</p>
+      <button id={car.theme+'Button'}>Learn More</button>
+    </div>
+  ))}
+</section>
+);
 }
-
-export default Cars
-
+export default Cars;
