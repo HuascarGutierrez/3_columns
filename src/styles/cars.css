@@ -27,14 +27,13 @@ p {
     color: var(--Transparent-white-paragraphs);
 }
 button{
-    color:var(--Bright-orange);
     background-color: white;
     border-style: none;
     border-radius: 15px;
     height: 30px;
     width: 90px;
+    
 }
-
 #BrightOrange {
     background-color: var(--Bright-orange);
 }
@@ -47,6 +46,20 @@ button{
     background-color: var(--Very-dark-cyan
     );
 }
+
+#Red {
+    background-color: red;
+}
+
+#Violet {
+    background-color: violet;
+}
+
+#Pink {
+    background-color: pink;
+}
+
+
 #BrightOrangeButton {
     color: var(--Bright-orange);
 }
@@ -58,4 +71,51 @@ button{
 #VeryDarkCyanButton {
     color: var(--Very-dark-cyan
     );
+}
+
+#RedButton {
+    color: red;
+}
+
+#VioletButton {
+    color: violet;
+}
+
+#PinkButton {
+    color: pink;
+}
+
+#BrightOrangeButton:hover {
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+#DarkCyanButton:hover {
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+}
+#VeryDarkCyanButton:hover {
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+#RedButton:hover {
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+#VioletButton:hover {
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+#PinkButton:hover {
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
 }
